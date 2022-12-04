@@ -7,10 +7,10 @@ How to flash https://github.com/sharandac/My-TTGO-Watch/ttgo-t-watch2020_v1.ino.
 
 file|write to address|from
 ---|---|---
-bootloader_dio_80m.bin|0x1000|https://github.com/espressif/arduino-esp32/blob/master/tools/sdk/bin/bootloader_dio_80m.bin
+bootloader_dio_80m.bin|0x1000|https://github.com/espressif/arduino-esp32/blob/master/tools/sdk/esp32/bin/bootloader_dio_80m.bin
 partitions.bin|0x8000|My-TTGO-Watch/.pio/build/ttgo-t-watch/partitions.bin or https://github.com/wlcims/My-TTGO-Watch-Bin-Flash/blob/master/data/partitions.bin
 boot_app0.bin|0xe000|https://github.com/espressif/arduino-esp32/blob/master/tools/partitions/boot_app0.bin
-ttgo-t-watch2020_v1.ino.bin|0x10000|https://github.com/sharandac/My-TTGO-Watch/blob/master/ttgo-t-watch2020_v1.ino.bin
+ttgo-t-watch2020_v1.ino.bin|0x10000|https://github.com/NorthernDIY/My-TTGO-Watch/blob/c51058830de97b24a1c1b84dd75980b8e34910a9/ttgo-t-watch2020_v1.ino.bin
 
 
 ## 2. Ubuntu
@@ -41,7 +41,7 @@ use Flash Download Tools
 
 ### download
 ```
-https://www.espressif.com/sites/default/files/tools/flash_download_tool_v3.8.5_1.zip
+https://www.espressif.com/sites/default/files/tools/flash_download_tool_3.9.3.zip
 ```
 
 ### upload 
